@@ -9,3 +9,4 @@ RUN pacman -Syu --noconfirm \
     python-gobject
 
 COPY rewrite /usr/bin/rewrite
+COPY fetch-deps /usr/bin/fetch-deps
