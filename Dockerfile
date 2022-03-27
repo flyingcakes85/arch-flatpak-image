@@ -6,7 +6,8 @@ RUN pacman -Syu --noconfirm \
     patch \
     ed \
     python-ruamel-yaml \
-    python-gobject
+    python-gobject \
+    flatpak-builder
 
 COPY rewrite /usr/bin/rewrite
 COPY fetch-deps /usr/bin/fetch-deps
